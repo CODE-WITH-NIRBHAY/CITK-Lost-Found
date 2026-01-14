@@ -118,8 +118,6 @@ Multi-institute deployment
 
 ✅ Fully functional and demo-ready
 
-⚠ Frontend currently demonstrated via local hosting (Live Server)
-
 ✅ Backend powered by Firebase Firestore
 
 👨‍💻 Created By
