@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Report Lost Item</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="card">
+    <h2>Report Lost Item</h2>
+
+    <input id="itemName" placeholder="Item name">
+    <textarea id="description" placeholder="Description"></textarea>
+    <input id="location" placeholder="Lost location">
+    <input type="file" id="image" accept="image/*">
+
+   <button onclick="submitLost(event)">Submit</button>
+
+   <a href="index.html" class="back-btn">⬅ Back to Home</a>
+  </div>
+</div>
+
+<script type="module" src="app.js"></script>
+<p style="text-align:center;font-size:12px;color:#64748b;margin-top:40px;">
+  Built for CITK Hackathon • Lost & Found System
+</p>
+
+</body>
+</html>
